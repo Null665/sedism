@@ -9,7 +9,9 @@ b end
 s/.*//g
 # s/w//
 i\
-  ^[[2J pressed up
+  [2J [H \
+   pressed up
+
 p
 s/\.\+//
 
